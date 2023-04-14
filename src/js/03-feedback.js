@@ -13,7 +13,7 @@ const saveInput = e => {
   );
 };
 
-form.addEventListener('input', throttle(saveInput));
+form.addEventListener('input', throttle(saveInput, 500));
 
 const submitForm = e => {
   e.preventDefault();
