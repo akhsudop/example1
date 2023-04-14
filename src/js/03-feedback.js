@@ -1,6 +1,6 @@
 import { throttle } from 'lodash';
 
-MY_KEY = 'feedback-form-state';
+const MY_KEY = 'feedback-form-state';
 
 const form = document.querySelector('.feedback-form');
 const saveInput = e => {
